@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap');
+body{
+  background-color: #062f33;
+}
+
+.ff_DsSans{
+  font-family: 'DM Sans', sans-serif;
+}
+textarea::placeholder{
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+}
