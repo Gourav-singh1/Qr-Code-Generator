@@ -26,7 +26,7 @@ function QrCode() {
   return (
     <>
       <div className="min-h-screen  flex justify-center items-center py-4">
-        <div className="w-[372px]">
+        <div className=" sm:w-[372px]">
           <h2 className="text-white text-center ff_DsSans font-semibold text-2xl">
             Qr Code Generator
           </h2>
@@ -55,15 +55,15 @@ function QrCode() {
             className="w-full mt-9 bg-[#3b4148] outline-none p-3 text-white ff_DsSans"
             placeholder="Enter Text Or Paste Link Here"
           ></textarea>
-          <div className="text-center mt-9">
+          <div className="text-center mt-9 flex justify-center">
             <button
-              className=" uppercase text-white bg-[#0d536a] py-3 px-9 ff_DsSans font-bold text-lg"
+              className=" uppercase text-white bg-[#0d536a] py-3 px-5 sm:px-9 ff_DsSans font-bold text-lg"
               onClick={Generateqr}
             >
               Generate
             </button>
             <button
-              className=" uppercase text-white bg-[#0d536a] py-3 px-9 ff_DsSans font-bold text-lg ms-6"
+              className=" uppercase text-white bg-[#0d536a] py-3 px-5 sm:px-9 ff_DsSans font-bold text-lg ms-6"
               onClick={downloadImages}
             >
               download
